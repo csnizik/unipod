@@ -19,9 +19,9 @@ services:
       - './www:/opt/drupal'
     ports:
       - '80:80'
-    environment:
-      XDEBUG_MODE: debug
-      XDEBUG_CONFIG: discover_client_host=yes
+    # environment:
+    #   XDEBUG_MODE: debug
+    #   XDEBUG_CONFIG: discover_client_host=yes
       # Enable this for PHPStorm:
       #XDEBUG_SESSION: PHPSTORM
       #PHP_IDE_CONFIG: serverName=localhost
